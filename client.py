@@ -26,8 +26,8 @@ async def get_sentence():
     print("录音结束")
     return voice.get_wav_data()
 
-voice_ip="ws://10.176.34.117:5678/home/u22307140061"
-image_ip="ws://10.176.34.117:8765/home/u22307140061"
+voice_ip="换自己的服务器，5678端口"
+image_ip="换自己的服务器，8765端口"
 
 async def send_pcm(websocket):
     with open("voice.pcm","rb") as file:
