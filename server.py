@@ -10,7 +10,7 @@ import agent
 from concurrent.futures import ThreadPoolExecutor
 
 
-ip="10.176.34.117"
+ip="这里你要换你自己的服务器地址"
 
 async def save_pcm(voice):
     with open("voice.pcm","wb") as file:
