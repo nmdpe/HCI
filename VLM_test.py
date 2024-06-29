@@ -4,7 +4,7 @@ from llava.model.builder import load_pretrained_model
 from llava.mm_utils import get_model_name_from_path
 from llava.eval.run_llava import eval_model
 
-model_path="/home/u22307140061/LLaVA/llava-v1.5-7b"
+model_path="llava-v1.5-7b" #换自己llava部署路径
 
 
 
