@@ -29,7 +29,7 @@ mental_docs=loader.load()
 mental_docs=text_splitter.split_documents(mental_docs)
 
 
-embedding=SentenceTransformerEmbeddings(model_name='/home/u22307140061/all-MiniLM-L6-v2')
+embedding=SentenceTransformerEmbeddings(model_name='all-MiniLM-L6-v2') #换自己路径
 vector_store=Chroma.from_documents(documents=aim_docs+spray_docs+weapon_docs+mental_docs,embedding=embedding)
 retriever=vector_store.as_retriever(
     search_type='similarity_score_threshold',
@@ -44,7 +44,7 @@ chat_search=Tongyi()
 
 chat_history=ChatMessageHistory()
 
-c2e={'压枪':'spray','扫射':'spray','扫射转移':'spray transfer'};
+c2e={'压枪':'spray','扫射':'spray','扫射转移':'spray transfer'}; #可以自己添加
 
 translate_prompt='''What's more, there are some words translations for reference: '''
 
