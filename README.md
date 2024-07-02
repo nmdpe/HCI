@@ -1,4 +1,4 @@
-# 2024 Srping FDU HCI course project: CS2 Esport Coach based on LLM
+# 2024 Srping FDU HCI Course Project: CS2 Esport Coach based on LLM
 
 想成为CS2高手玩家吗？一个简单的带有知识库的语音对话系统，帮助你成为CS2高手，同时还提供心理辅导。
 
